@@ -47,7 +47,6 @@ def main():
 
     save_model(model.module, "unet_model.pth")  # .module でUNet本体を保存
     print("Model saved!")
-    discord_info(117)
 
 
 if __name__ == "__main__":
