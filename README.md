@@ -1,14 +1,14 @@
-> U-Net_Basic
+# U-Net_Basic
 セグメンテーションモデルU-Netを使った画像推論を行う．
->.env: no such file or firectory
+# .env: no such file or firectory
 Use 'pip install -r requirements.txt'.
-> Folder_list
-# train
+# Folder_list
+train
 dataset/images/
-# masks
+masks
 dataset/masks/
-> How to use
-# train
+# How to use
+train
 Use 'python train.py'
-# predict
+predict
 Use 'python predict_batch.py --input_dir test_images/ --output_dir predicted_masks/ --model unet_model.pth'

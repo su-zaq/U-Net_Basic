@@ -7,7 +7,6 @@ from model import UNet
 from loss import DiceLoss
 from dataset import SegmentationDataset
 from utils import save_model
-from send_info_discord import discord_info
 
 def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
